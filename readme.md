@@ -1,0 +1,1 @@
+Projeto de um jogo clássico no qual o jogador tem que desviar uma esfera que elimina blocos e o objetivo é eliminar todos os blocos.Projeto feito como forma de estudo, usando HTML, CSS, JavaScript.
