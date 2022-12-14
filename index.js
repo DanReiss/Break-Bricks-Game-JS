@@ -19,6 +19,7 @@ class Brick {
          this.bottomRight = [xAxis + brickWidth, yAxis];
          this.topLeft = [xAxis, yAxis + brickHeight]
          this.topRight = [xAxis + brickWidth, yAxis + brickHeight]
+        // adicionar estagios dos tijolos
     }
 }
 
@@ -142,7 +143,6 @@ function checkCollisions(){
        ballcurrentPosition[1] >= (boardSizes[1] - ballDiameter) ||
        ballcurrentPosition[0] <= 0 
         ){
-            console.log("tesste")
             changeDirection();
     }
     
